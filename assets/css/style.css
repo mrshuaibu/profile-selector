@@ -212,6 +212,13 @@ main {
 }
 
 @media (max-width: 768px) {
+    .pic {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
     .pic img {
         width: 60px;
         height: 60px;
@@ -220,7 +227,7 @@ main {
     }
 
     .img-options {
-        gap: 7px;
+        gap: 10px;
     }
 }
 
