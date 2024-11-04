@@ -218,6 +218,10 @@ main {
         border-radius: 50%;
         transition: transform 0.3s ease;
     }
+
+    .img-options {
+        gap: 7px;
+    }
 }
 
 /********************/
