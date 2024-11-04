@@ -211,6 +211,15 @@ main {
     background-color: #4da3ff;
 }
 
+@media (max-width: 768px) {
+    .pic img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        transition: transform 0.3s ease;
+    }
+}
+
 /********************/
 /****** Footer ******/
 /********************/
